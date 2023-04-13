@@ -1,0 +1,130 @@
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+body{
+	color: white;
+	background-image: url(https://images.unsplash.com/photo-1581609836630-9007630f7a7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80);
+}
+
+.main1{
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.time{
+	font-size: 60px;
+}
+.pm{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.day{
+	margin-top: 10px;
+	font-size: 35px;
+}
+.time,.day{
+	display: flex;
+}
+
+.container{
+	margin-top: 20px;
+	margin-left: 10%;
+	border: 1px solid white;
+	width: 250px;
+	font-size: 22px;
+	border-radius: 25px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(17, 18, 17, 0.8);
+	/*opacity: 0.8;*/
+}
+.c_item{
+	display: flex;
+	justify-content: space-between;
+}
+.daily_info{
+	display: flex;
+	/*justify-content: center;*/
+	/*align-content:center;*/
+	width: 100%;
+	bottom:100px;
+	position: fixed;
+	/*padding: 30px;*/
+	overflow-x: scroll;
+	padding-left: 3%;
+	/*margin-right: 3%;*/
+	padding-bottom: 4%;
+}
+.daily_info > div{
+	display: flex;
+	padding: 20px;
+	
+}
+.daily_info1{
+	display: flex;	
+}
+.current{
+	width: 400px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: rgba(17, 18, 17, 0.9);
+	/*opacity: 0.8;*/
+}
+.current>img{
+	width: 200px;
+}
+.currentday{
+	background-color: red;
+	border: 1px solid transparent;
+	font-size: 35px;
+	text-align: center;
+	border-radius: 25px;
+	width: 200px;
+	padding: 5px;
+	margin-top: 20px;
+
+
+}
+.current_day,.current_night
+{
+	font-size: 25px;
+	margin-top: 20px;
+
+}
+.current_night{
+	margin-left: 30px;
+}
+.current_day{
+	margin-left: 34px;
+}
+
+.daily_info1 > div{
+	border: 1px solid white;
+	width: 180px;
+	height: 250px;
+	border-radius: 20px;
+	margin-left: 10px;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.dailydays{
+	border: 1px solid transparent;
+	background-color: red;
+	width: fit-content;
+	padding: 5px 15px;
+	border-radius: 25px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.day_night{
+	font-size: 20px;
+	margin-left: 40px;
+}
+.img{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	height: 80px;
+}
